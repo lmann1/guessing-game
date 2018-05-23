@@ -1,0 +1,195 @@
+/* ------------------------ CROSS-SITE STYLING ------------------------ */
+
+body {
+  color: #33342D;
+  font-family: Roboto, sans-serif;
+  font-size:14px;
+  text-shadow: none;
+}
+
+p {
+  font-size: 150%;
+  word-wrap: break-word;
+}
+
+h1 {
+  color: #33342D;
+  font-weight: normal;
+  padding-top: 1%;
+  margin-bottom: 0em;
+}
+
+h2 {
+  padding-top: 1.5%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+/* ------------------------ HEADER STYLING ------------------------ */
+
+/* CP logo */
+.logo img {
+  width: 10%;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 3%;
+  padding-bottom: 1%;
+}
+
+/* Header */
+.textColumn {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* ------------------------ TRUE TRADE WIDGET STYLING ------------------------ */
+
+/* Input boxes text + start over text */
+.widget input, .widget ._my-auto_dhe77_CPROOF  {
+  font-size: 16px;
+}
+
+/* Button to search by lisence plate or search for vehicle */
+.widget button {
+  font-size: 11.2px; 
+}
+
+/* checkboxes */
+.widget input[type='checkbox'] {
+  margin-left: -1.25rem;
+}
+
+/* *This is not an offer... */
+.widget ._mb-0_dhe77_CPROOF {
+  font-size: 10px;
+}
+
+/* If you want to consider trading in... + Lets start by telling me.... + If you want to sell your vehicle...  */
+.widget ._font-italic_dhe77_CPROOF, .widget ._breakpoint-span_dhe77_CPROOF {
+  font-size: 14px;
+}
+/* "Lets start by telling me..." */
+.widget ._font-italic_dhe77_CPROOF._text-center_dhe77_CPROOF._mb-4_dhe77_CPROOF._p-writing_dhe77_CPROOF {
+  margin-bottom: 24px !important;
+}
+
+/* Input padding */
+.widget ._pt-2_dhe77_CPROOF {
+  padding-top: 8px !important;
+}
+
+/* Input margins */
+.widget ._form-row_dhe77_CPROOF._mt-3_dhe77_CPROOF {
+  margin: 10px 5px 0px 5px !important;
+}
+
+/* averages in brackets */
+.widget ._mr-auto_dhe77_CPROOF._my-auto_dhe77_CPROOF._breakdown-info_dhe77_CPROOF {
+  font-size: 12px;
+}
+/* Widget body margins */
+.widget ._card-body_dhe77_CPROOF._widget-bottom_dhe77_CPROOF._custom-pt_dhe77_CPROOF {
+  padding: 32px 20px 20px 20px !important;
+}
+
+.widget ._d-flex_dhe77_CPROOF._mt-2_dhe77_CPROOF._col-12_dhe77_CPROOF {
+  margin-top: 5px !important;
+}
+
+
+/* ------------------------ IMAGE GUESSING SECTION STYLING ------------------------ */
+
+/* Question & instructions */
+.image-guess {
+  padding-top: 5%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.image-guess h2 {
+  padding-top: 0;
+}
+
+.swipe{
+  overflow:auto;
+  white-space:nowrap;
+  margin-left: 41px;
+  margin-right: 41px;
+}
+
+.swipe img {
+  width: 400px; 
+  height: 273px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+/* Hide the horizontal scroll bar */
+.swipe::-webkit-scrollbar {
+  width: 1px;
+  display: none;
+}
+
+#modalContent-results {
+  display: none;
+}
+
+.modal-title {
+  text-align: center;
+}
+
+.modal-header {
+  padding: 10px;
+}
+
+.modal-body p {
+  padding-top: 10px;
+}
+
+#arrow-button {
+  margin-left: 1%;
+}
+
+#alert {
+  color: red;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 85%;
+  width: auto;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev img, .next img {
+  width: 41px;
+  height: 41px;
+}
