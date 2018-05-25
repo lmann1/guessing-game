@@ -32,6 +32,25 @@ h3 {
   position: relative;
 }
 
+/* Screen sizes under 768 */
+@media (max-width: 768px) {
+  /* Hide previous and next buttons on mobile */
+  .next, .prev {
+    display: none !important;
+  }
+
+  /* Decrease margin around sliding images */
+  .swipe {
+    margin: 0 !important;
+  }
+
+  /* Decrease image size */
+  .swipe img {
+    width: 60% !important;
+    height: 60% !important;
+  }
+}
+
 /* ------------------------ HEADER STYLING ------------------------ */
 
 /* CP logo */
@@ -140,6 +159,37 @@ h3 {
   display: none;
 }
 
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 85%;
+  width: auto;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Position the previous and next buttons */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev img, .next img {
+  width: 41px;
+  height: 41px;
+}
+
+/* ---------- MODAL STYLING ---------- */
+
 #modalContent-results {
   display: none;
 }
@@ -162,34 +212,4 @@ h3 {
 
 #alert {
   color: red;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 85%;
-  width: auto;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* Position the "next button" to the right */
-.prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev img, .next img {
-  width: 41px;
-  height: 41px;
 }

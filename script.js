@@ -14,7 +14,7 @@ $(document).ready(function(){
 
     $("#arrow-button").click(function() {
       if (validateForm() == true) {
-        showResults(20700, 'https://s3-us-west-2.amazonaws.com/carproof-images/results/ford-king-ranch-results.PNG')
+        showResults(20700, 'https://s3-us-west-2.amazonaws.com/carproof-images/results/ford-king-ranch-results2.PNG')
       }
     })
   });
@@ -27,20 +27,20 @@ $(document).ready(function(){
 
     $("#arrow-button").click(function() {
       if (validateForm() == true) {
-        showResults(3995, 'https://s3-us-west-2.amazonaws.com/carproof-images/results/hyundai-accent-results.PNG')
+        showResults(3995, 'https://s3-us-west-2.amazonaws.com/carproof-images/results/hyundai-accent-results2.PNG')
       }
     })
   });
 
   // Dodge Caravan
   $("#caravan").click(function(){
-    $("#modalImage").attr("src", "https://s3-us-west-2.amazonaws.com/carproof-images/results/vehicles/dodge-caravan.jpg");
+    $("#modalImage").attr("src", "https://s3-us-west-2.amazonaws.com/carproof-images/vehicles/dodge-caravan.jpg");
     $("#modal-title").text("2014 Dodge Grand Caravan SXT");
     $("#myModal").modal("show");
 
     $("#arrow-button").click(function() {
       if (validateForm() == true) {
-        showResults(15995, 'https://s3-us-west-2.amazonaws.com/carproof-images/results/dodge-caravan-results.PNG')
+        showResults(15995, 'https://s3-us-west-2.amazonaws.com/carproof-images/results/dodge-caravan-results2.PNG')
       }
     })
   });
@@ -53,7 +53,7 @@ $(document).ready(function(){
 
     $("#arrow-button").click(function() {
       if (validateForm() == true) {
-        showResults(24410, 'https://s3-us-west-2.amazonaws.com/carproof-images/results/honda-crv-results.PNG')
+        showResults(24410, 'https://s3-us-west-2.amazonaws.com/carproof-images/results/honda-crv-results2.PNG')
       }
     })
   })
@@ -66,7 +66,7 @@ $(document).ready(function(){
 
     $("#arrow-button").click(function() {
       if (validateForm() == true) {
-        showResults(20670, 'https://s3-us-west-2.amazonaws.com/carproof-images/results/corolla-results.PNG')
+        showResults(20670, 'https://s3-us-west-2.amazonaws.com/carproof-images/results/corolla-results2.PNG')
       }
     })
   })
@@ -77,6 +77,7 @@ $(document).ready(function(){
     $("#modalContent-results").css("display", "none");
     $("#alert").text("");
     $("#modal-title").text("Can you guess the correct value?");
+    $("#estimateValue").val("");
   });
 
   /* Next button moves scroll bar to the right */
